@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Enjoy The Music</title>
+    <link rel="icon" type="image/x-icon" href="extras/fav.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="extras/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="left">
+            <h1>All Time Spotify's Top Rated Playlist</h1>
+            <div class="songList">
+                <img src="images/c1.png" alt="">
+                <span>Despacito</span>
+                <span><span>04:41 </span><i id="0" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c2.jpg" alt="">
+                <span>Shape Of You</span>
+                <span><span>04:23 </span><i id="1" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c3.jpg" alt="">
+                <span>Mercy</span>
+                <span><span>02:42 </span><i id="2" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c4.png" alt="">
+                <span>Let Me Love You</span>
+                <span><span>03:25 </span><i id="3" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c5.jpg" alt="">
+                <span>Daru Badnaam</span>
+                <span><span>03:05 </span><i id="4" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c6.jpg" alt="">
+                <span>Backbone</span>
+                <span><span>02:55 </span><i id="5" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c7.cms" alt="">
+                <span>3 Peg</span>
+                <span><span>03:24 </span><i id="6" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c8.jfif" alt="">
+                <span>Brown Munde</span>
+                <span><span>04:27 </span><i id="7" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+            <div class="songList">
+                <img src="images/c9.jpg" alt="">
+                <span>High Rated Gabru</span>
+                <span><span>03:34 </span><i id="8" class="fa-solid sidePlay fa-circle-play">&nbsp;</i></span> 
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" class="range" id="progress" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-play" id="play"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="extras/gif.gif" width="48px" alt="" id="gif"><span id="songsName"> Despacito</span>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/111d40ad17.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
